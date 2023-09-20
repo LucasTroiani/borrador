@@ -1,0 +1,187 @@
+
+.margen{
+  margin: 30px;
+  border: 30px;
+  border-color: rgb(248, 141, 1);
+}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.767);
+  justify-content: center;
+  align-content: center;
+  z-index: 1000;
+}
+.nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vw;
+  color: black;
+  padding: 1%;
+  width: fit-content;
+  text-align: center;
+ text-decoration-line: none;
+}
+.nav a:hover {
+  background-color: rgba(255, 239, 239, 0.582);
+}
+.titulo{
+  text-align: center; 
+  font-size: 6vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#inicio {
+  background: url(https://images4.alphacoders.com/199/199476.jpg) no-repeat center;
+  background-size: 100%;
+  background-position: center 0px;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+ padding-top: 5%;
+ padding: 0.5% 50% 50% 50%;
+
+}
+
+.contenedor {
+  font-family: 'Roboto', sans-serif;
+  /*background: url(https://e0.pxfuel.com/wallpapers/524/372/desktop-wallpaper-gorillaz-iphone.jpg) no-repeat center;*/
+  background-size: 100%;
+  background-position: center 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  max-height: max-content;
+}
+
+
+.cuerpo {
+  background-color: rgba(255, 255, 255, 0);
+  grid-area: cuerpo;
+  position: relative;
+  justify-content: center;
+}
+/* .sideizq {
+  background-color: brown;
+  grid-area: sideizq; */
+
+.sider {
+  background-color: blue;
+  grid-area: sider;
+  position: relative;
+}
+
+.footer {
+  background-color: pink;
+  grid-area: footer;
+  position: relative;
+}
+
+
+#galeria {
+  width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { }
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
