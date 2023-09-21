@@ -64,6 +64,15 @@
   position: relative;
   justify-content: center;
 }
+
+.cuerpo h2 {
+  text-align: center;
+}
+
+.cuerpo ul {
+  font-weight: bold;
+}
+
 /* .sideizq {
   background-color: brown;
   grid-area: sideizq; */
